@@ -1,0 +1,28 @@
+
+public class A {
+	
+	int x;
+	double y;
+	
+	void add(int a , int b) {
+		x=a+b;
+	}
+	void add(double c , double d) {
+		y=c+d;
+	}
+	
+	A(){
+		this.x=0;
+		this.y=0;
+	}
+	
+	public static void main(String[] args) {
+		A aa=new A();
+		int a=2;
+		double b=3.2;
+		aa.add(a,a);
+		aa.add(b, b);
+		System.out.println(aa.x+""+aa.y);
+	}
+
+}

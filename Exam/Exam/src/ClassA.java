@@ -1,0 +1,28 @@
+interface interf{
+	public default void a() {
+		System.out.println("Interface");
+	}
+}
+ class ClassB {
+
+	
+	public void a() {
+		System.out.println("Base");
+	}
+}
+
+public class ClassA extends ClassB implements interf{
+	
+	
+	
+	public static void main(String[] args) {
+		
+		ClassA a =new ClassA();
+		
+		a.
+		
+		System.out.print();
+	}
+	
+}
+
